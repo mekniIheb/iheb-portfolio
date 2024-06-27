@@ -1,0 +1,76 @@
+{
+  "NAVBAR": {
+    "TITLE": "PORTFOLIO VON IHEB",
+    "HOME": "Startseite",
+    "ABOUT": "Über",
+    "SERVICES": "Dienstleistungen",
+    "WORK": "Arbeit",
+    "BLOG": "Blog",
+    "CONTACT": "Kontakt"
+  },
+  "INTRO": {
+    "TITLE": "Iheb Mekni",
+    "SUBTITLE": "FULL STACK ENTWICKLER",
+    "LEARN_MORE": "Mehr erfahren"
+  },
+  "ABOUT": {
+    "TITLE": "Über mich",
+    "NAME": "Name:",
+    "NAME_VALUE": "Iheb Mekni",
+    "PROFILE": "Profil:",
+    "PROFILE_VALUE": "Full Stack Entwickler",
+    "EMAIL": "E-Mail:",
+    "EMAIL_VALUE": "mekni.iheb@hotmail.com",
+    "PHONE": "Telefon:",
+    "PHONE_VALUE": "(216) 90475554",
+    "SKILLS_TITLE": "Fähigkeiten",
+    "ABOUT_ME_TITLE": "Über mich",
+    "ABOUT_ME_CONTENT_1": "Ich bin Iheb Mekni, ein engagierter und erfahrener Full Stack Entwickler mit Sitz in Tunis, Tunesien. Ich habe mich auf das Design und die Entwicklung robuster Microservices-Architekturen spezialisiert und nutze meine Expertise in Frontend- und Backend-Technologien. Ich habe einen Bachelor-Abschluss in Informatik von der Fakultät für Naturwissenschaften in Bizerte. Im Laufe meiner Karriere hatte ich die Möglichkeit, mit führenden Technologien wie Java, Spring Boot und Angular zu arbeiten.",
+    "ABOUT_ME_CONTENT_2": "Bei Xtensus und IDNTT habe ich Schlüsselrollen bei der Migration von monolithischen Anwendungen zu skalierbaren Microservices, der Sicherstellung einer sicheren Authentifizierung mit Keycloak und der Pflege detaillierter API-Dokumentationen gespielt. Meine Leidenschaft für die Softwareentwicklung treibt mich dazu an, kontinuierlich zu lernen und zu innovieren, um hochwertige, effiziente und skalierbare Lösungen zu liefern. Ich bin stolz auf meinen akribischen Ansatz zur Problemlösung und meine Fähigkeit, mich neuen Herausforderungen anzupassen."
+  },
+  "SERVICES": {
+    "TITLE": "Dienstleistungen",
+    "WEB_DESIGN": {
+      "TITLE": "Webdesign",
+      "DESCRIPTION": "Erstellung optisch ansprechender und benutzerfreundlicher Designs, die ein ansprechendes Benutzererlebnis gewährleisten."
+    },
+    "WEB_DEVELOPMENT": {
+      "TITLE": "Webentwicklung",
+      "DESCRIPTION": "Entwicklung robuster und skalierbarer Webanwendungen, maßgeschneidert für Ihre geschäftlichen Anforderungen."
+    },
+    "RESPONSIVE_DESIGN": {
+      "TITLE": "Responsive Design",
+      "DESCRIPTION": "Sicherstellen, dass Ihre Website auf allen Geräten großartig aussieht und nahtlos funktioniert."
+    },
+    "COUNTERS": {
+      "WORKS_COMPLETED": {
+        "COUNT": "10",
+        "TEXT": "ABGESCHLOSSENE ARBEITEN"
+      },
+      "YEARS_OF_EXPERIENCE": {
+        "COUNT": "2",
+        "TEXT": "JAHRE ERFAHRUNG"
+      },
+      "TOTAL_CLIENTS": {
+        "COUNT": "8",
+        "TEXT": "GESAMTKUNDEN"
+      },
+      "AWARDS_WON": {
+        "COUNT": "7",
+        "TEXT": "AUSZEICHNUNGEN GEWONNEN"
+      }
+    }
+  },
+  "CONTACT": {
+    "SEND_MESSAGE_US": "Schicken Sie uns eine Nachricht",
+    "YOUR_NAME": "Dein Name",
+    "YOUR_EMAIL": "Deine E-Mail",
+    "SUBJECT": "Gegenstand",
+    "MESSAGE": "Nachricht",
+    "SEND_MESSAGE_BUTTON": "Nachricht senden",
+    "GET_IN_TOUCH": "In Kontakt kommen",
+    "LOCATION": "Ariana, Tunis",
+    "PHONE": "(216) 90475554",
+    "EMAIL": "mekni.iheb@hotmail.com"
+  }
+}
