@@ -9,6 +9,7 @@ import { Lightbox } from 'ngx-lightbox';
 export class WorkComponent {
   private _albums: Array<any> = [];
   private _albumsFLyCar: Array<any> = [];
+  private _albumsSteg: Array<any> = [];
   constructor(private _lightbox: Lightbox) {
     this._albums = [
       {
@@ -114,6 +115,58 @@ export class WorkComponent {
         thumb: 'assets/img/fly-car/8.png'
       }
     ];
+    this._albumsSteg = [
+      {
+        src: 'assets/img/steg/1.png',
+        caption: 'Image 1',
+        thumb: 'assets/img/steg/1.png'
+      },
+      {
+        src: 'assets/img/steg/2.png',
+        caption: 'Image 2',
+        thumb: 'assets/img/steg/2.png'
+      },
+      {
+        src: 'assets/img/steg/3.png',
+        caption: 'Image 3',
+        thumb: 'assets/img/steg/3.png'
+      },
+      {
+        src: 'assets/img/steg/4.png',
+        caption: 'Image 4',
+        thumb: 'assets/img/steg/4.png'
+      },
+      {
+        src: 'assets/img/steg/5.png',
+        caption: 'Image 5',
+        thumb: 'assets/img/steg/5.png'
+      },
+      {
+        src: 'assets/img/steg/6.png',
+        caption: 'Image 6',
+        thumb: 'assets/img/steg/6.png'
+      },
+      {
+        src: 'assets/img/steg/7.png',
+        caption: 'Image 7',
+        thumb: 'assets/img/steg/7.png'
+      },
+      {
+        src: 'assets/img/steg/8.png',
+        caption: 'Image 8',
+        thumb: 'assets/img/steg/8.png'
+      },
+      {
+        src: 'assets/img/steg/9.png',
+        caption: 'Image 8',
+        thumb: 'assets/img/steg/9.png'
+      },
+      {
+        src: 'assets/img/steg/10.png',
+        caption: 'Image 8',
+        thumb: 'assets/img/steg/10.png'
+      }
+    ];
   }
 
   open(index: number): void {
@@ -125,5 +178,9 @@ export class WorkComponent {
   close(): void {
     // close lightbox programmatically
     this._lightbox.close();
+  }
+
+  openSteg(index: number): void {
+    this._lightbox.open(this._albumsSteg, index);
   }
 }
